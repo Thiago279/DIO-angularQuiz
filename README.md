@@ -1,59 +1,99 @@
-# ProjetoBuzzfeed
+🚀 Quiz de Linguagens de Programação - Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
+Este é um projeto desenvolvido em Angular que apresenta um quiz interativo sobre linguagens de programação. O projeto foi criado para explorar conceitos fundamentais do framework, como estilização de componentes, estruturação do HTML, dinamização de parâmetros, divisão de componentes e simulação de dados de uma API via JSON.
 
-## Development server
+📌 Tecnologias Utilizadas
+- Angular (Estruturação e dinamização do app)
+ 
+- TypeScript (Tipagem e lógica)
+ 
+- CSS (Estilização dos componentes)
+ 
+- JSON (Simulação de dados de uma API)
 
-To start a local development server, run:
+📖 Que conceitos aprendi e pratiquei nesse projeto?
 
-```bash
-ng serve
+✔ Estruturar um projeto Angular corretamente
+
+✔ Dividir a aplicação em componentes reutilizáveis
+
+✔ Estilizar componentes Angular com CSS
+
+✔ Dinamizar parâmetros utilizando interpolação e data binding
+
+✔ Simular dados vindos de uma API usando um arquivo JSON local
+
+🛠 Como rodar o projeto?
+
+1.	Clone o repositório
+
+ ```
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+```
+	
+  2.	Instale as dependências
+```
+npm install
+```
+  3.	Inicie o servidor de desenvolvimento
+```
+ng s -o
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+📂 Estrutura do projeto
+```
+📂 src/
+ ┣ 📂 app/
+ ┃ ┣ 📂 components/
+ ┃ ┃ ┣ 📂 quiz/  # Componente principal do quiz
+ ┃ ┃ ┃ ┣ 📜 quiz.component.html  # Estrutura do quiz
+ ┃ ┃ ┃ ┣ 📜 quiz.component.css   # Estilos do quiz
+ ┃ ┃ ┃ ┗ 📜 quiz.component.ts    # Lógica do quiz
+ ┃ ┗ 📜 app.module.ts  # Configuração do módulo principal
+ ┣ 📂 assets/
+ ┃ ┣ 📂 imgs/  # Armazena imagens do projeto
+ ┃ ┗ 📜 quizz_questions.json  # Simulação dos dados da API
+ ┗ 📜 index.html  # Página principal
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-```bash
-ng generate --help
+📜 Estrutura do JSON
+
+O quiz utiliza um arquivo quizz_questions.json que contém as perguntas e respostas:
+```
+{
+  "title": "Qual linguagem de programação combina mais com você?",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Qual dessas qualidades você valoriza mais em uma linguagem?",
+      "options": [
+        { "id": 1, "name": "Rapidez e eficiência", "alias": "A" },
+        { "id": 2, "name": "Facilidade de aprendizado", "alias": "B" }
+      ]
+    }
+  ],
+  "results": {
+    "A": "Você combina mais com C/C++!",
+    "B": "Você combina mais com Python!"
+  }
+}
+
 ```
 
-## Building
 
-To build the project run:
+🎨 Estilização
 
-```bash
-ng build
-```
+A estilização dos componentes foi feita utilizando CSS puro, com foco na responsividade e na experiência do usuário.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+✨ Funcionalidades
 
-## Running unit tests
+✅ Perguntas dinâmicas baseadas no JSON
+✅ Interpolação de dados no template
+✅ Estilização com CSS para uma melhor experiência
+✅ Simulação de API com arquivo JSON
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+📌 Melhorias futuras
+-	Adicionar integração real com uma API
+-	Criar um sistema de ranking e pontuação
