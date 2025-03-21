@@ -1,0 +1,61 @@
+{
+  "title": "Qual linguagem de programação combina mais com você?",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Qual dessas qualidades você valoriza mais em uma linguagem?",
+      "options": [
+        { "id": 1, "name": "Rapidez e eficiência", "alias": "A" },
+        { "id": 2, "name": "Facilidade de aprendizado", "alias": "B" },
+        { "id": 3, "name": "Flexibilidade e dinamismo", "alias": "C" },
+        { "id": 4, "name": "Robustez e segurança", "alias": "D" }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Qual ambiente você prefere para programar?",
+      "options": [
+        { "id": 1, "name": "Desenvolvimento web", "alias": "C" },
+        { "id": 2, "name": "Sistemas e softwares complexos", "alias": "A" },
+        { "id": 3, "name": "Aplicativos mobile", "alias": "B" },
+        { "id": 4, "name": "Infraestrutura e back-end", "alias": "D" }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Como você lida com erros no código?",
+      "options": [
+        { "id": 1, "name": "Gosto de um sistema de tipagem forte para evitar erros", "alias": "D" },
+        { "id": 2, "name": "Prefiro uma linguagem mais permissiva e dinâmica", "alias": "C" },
+        { "id": 3, "name": "Me viro bem com erros, contanto que a performance seja boa", "alias": "A" },
+        { "id": 4, "name": "Erros são apenas parte do aprendizado", "alias": "B" }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Qual dessas frases te representa mais?",
+      "options": [
+        { "id": 1, "name": "Gosto de estar sempre no controle do código", "alias": "D" },
+        { "id": 2, "name": "Prefiro algo simples e direto", "alias": "B" },
+        { "id": 3, "name": "Adoro experimentar coisas novas e diferentes", "alias": "C" },
+        { "id": 4, "name": "Desempenho sempre vem em primeiro lugar", "alias": "A" }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Se você fosse um símbolo de programação, qual seria?",
+      "options": [
+        { "id": 1, "name": "{} (Blocos de código bem definidos)", "alias": "D" },
+        { "id": 2, "name": "print() (Tudo tem que ser prático)", "alias": "B" },
+        { "id": 3, "name": "$ (Adoro lidar com strings e variáveis soltas)", "alias": "C" },
+        { "id": 4, "name": "-> (Funções eficientes e diretas)", "alias": "A" }
+      ]
+    }
+  ],
+  "results": {
+    "A": "Você combina mais com C/C++! Sua prioridade é eficiência e controle absoluto sobre o código.",
+    "B": "Você combina mais com Python! Prefere simplicidade e legibilidade acima de tudo.",
+    "C": "Você combina mais com JavaScript! Gosta de flexibilidade e dinamismo na programação.",
+    "D": "Você combina mais com Java! Valoriza robustez, segurança e tipagem forte."
+  }
+}
